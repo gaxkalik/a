@@ -13,10 +13,10 @@ Capstone/
 │   └── ProThermDB.tsv
 ├── Models_Artifacts_mechano/          #Evaluation Metrics + Artifacts (MechanoProDB)
 │   ├── MultiInputBiLSTM_all_text_50_epochs_Mean_Pooling/
-|   |   ├── metrics_df_lstm.tsv
+│   │   ├── metrics_df_lstm.tsv
 │   │   ├── numeric_feature_scaler.pkl
 │   │   ├── target_scaler.pkl
-|   |   └── sci_tokenizer/
+│   │   └── sci_tokenizer/
 │   │       ├── special_tokens_map.json
 │   │       ├── tokenizer_config.json
 │   │       └── vocab.txt
@@ -45,7 +45,7 @@ Capstone/
 │           ├── tokenizer_config.json
 │           └── vocab.txt
 ├── ML_Models/
-|   └── metrics_df_tfdf.tsv
+│   └── metrics_df_tfdf.tsv
 │   ├── BERT_all_text_50_epochs_Mean_Pooling/
 │   │   ├── BERT_best_model.pth
 │   │   ├── metrics_df_bert.tsv
@@ -53,12 +53,12 @@ Capstone/
 │   │   ├── target_scaler.pkl
 │   │   ├── prot_tokenizer/
 │   │   │   ├── special_tokens_map.json
-|   |   |   ├── tokenizer.json
+│   │   │   ├── tokenizer.json
 │   │   │   ├── tokenizer_config.json
 │   │   │   └── vocab.txt
 │   │   └── sci_tokenizer/
 │   │       ├── special_tokens_map.json
-|   |       ├── tokenizer.json
+│   │       ├── tokenizer.json
 │   │       ├── tokenizer_config.json
 │   │       └── vocab.txt
 │   ├── BERT_subset_text_50_epochs_Mean_Pooling/
@@ -67,23 +67,23 @@ Capstone/
 │   │   ├── target_scaler.pkl
 │   │   ├── prot_tokenizer/
 │   │   │   ├── special_tokens_map.json
-|   |   |   ├── tokenizer.json
+│   │   │   ├── tokenizer.json
 │   │   │   ├── tokenizer_config.json
 │   │   │   └── vocab.txt
 │   │   └── sci_tokenizer/
 │   │       ├── special_tokens_map.json
-|   |       ├── tokenizer.json
+│   │       ├── tokenizer.json
 │   │       ├── tokenizer_config.json
 │   │       └── vocab.txt
 │   ├── ESM2_all_text_50_epochs_Mean_Pooling/
-│   |    ├── ESM_best_model.pth
-│   |    ├── metrics_df_esm.tsv
-│   |    ├── numeric_feature_scaler.pkl
-│   |    ├── target_scaler.pkl
-│   |    └── tokenizer/
-│   |       ├── special_tokens_map.json
-│   |       ├── tokenizer_config.json
-│   |       └── vocab.txt
+│   │    ├── ESM_best_model.pth
+│   │    ├── metrics_df_esm.tsv
+│   │    ├── numeric_feature_scaler.pkl
+│   │    ├── target_scaler.pkl
+│   │    └── tokenizer/
+│   │       ├── special_tokens_map.json
+│   │       ├── tokenizer_config.json
+│   │       └── vocab.txt
 │   └── ESM2_subset_text_50_epochs_Mean_Pooling/
 │       ├── ESM_best_model.pth
 │       ├── metrics_df_esm.tsv
@@ -121,12 +121,12 @@ This repository includes several key notebooks that support data preparation, mo
 
 
 
-| Notebook (from Scripts/)  | Location     | Description|
-| -------- | ------- | ------------------------- |
-| `Data_Analysis`| `Scripts` | Check the distributions of values, perform PCA for Dimensionality Reduction, clustering via K-Means, DBSCAN, analysis of feature correlations and importance through Random Forest and Heatmaps. |
-| `Models_notebook`| `Scripts` | Preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT, applying Regression Imputings for missing numeric values.  |
-| `Preprocessing_notebook_MechanoProDB` | `Scripts` | Sequence extraction through queries (PDB/UniProt), preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT. |
-| `Preprocessing_notebook_ProThermDB`   | `Scripts` | Building models for targets prediction (TFDF, ESM-2, ProtBERT, SciBERT, BiLSTM) , performing Inference and visualizations (Free Energy Profile, Force-Extension Curve). |
+│ Notebook (from Scripts/)  │ Location     │ Description│
+│ -------- │ ------- │ ------------------------- │
+│ `Data_Analysis`│ `Scripts` │ Check the distributions of values, perform PCA for Dimensionality Reduction, clustering via K-Means, DBSCAN, analysis of feature correlations and importance through Random Forest and Heatmaps. │
+│ `Models_notebook`│ `Scripts` │ Preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT, applying Regression Imputings for missing numeric values.  │
+│ `Preprocessing_notebook_MechanoProDB` │ `Scripts` │ Sequence extraction through queries (PDB/UniProt), preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT. │
+│ `Preprocessing_notebook_ProThermDB`   │ `Scripts` │ Building models for targets prediction (TFDF, ESM-2, ProtBERT, SciBERT, BiLSTM) , performing Inference and visualizations (Free Energy Profile, Force-Extension Curve). │
 
 #### Get item
 
