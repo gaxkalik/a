@@ -4,6 +4,13 @@
 This project aims to leverage existing biological knowledge of protein folding and unfolding dynamics by utilizing data from MechanoProDB, a web-based database for exploring the mechanical properties of proteins. The approach combines biophysical data obtained from single-molecule force spectroscopy experiments with advanced Machine Learning techniques, primarily consisting of transformer-based models. Among these are ESM2 with 8M parameters, and the combination of ProtBERT, pre-trained on 2.1B protein sequences, with SciBERT, which incorporates domain-specific language collected from 1.14M scientific papers. The research focuses on how experimental conditions, including pH, temperature, mechanical forces and denaturants, interact with different types of proteins to influence unfolding behavior and kinetic changes in proteins’ stability. By learning these relationships, this project seeks to build the optimal model architecture capable of predicting mechanical properties of proteins under different scenarios. This is a novel method, enabling scientists to get approximate kinetic parameters and protein unfolding spectra, based on their specific conditions, not requiring laboratory experiments.
 
 
+
+## Authors
+
+- **Student:** [Diana Tumayan (AUA)](https://www.linkedin.com/in/diana-tumasyan-bb448b265)
+- **Supervisor:** Rafayel Petrosyan
+
+
 ## Project Structure
 
 ```bash
@@ -108,10 +115,7 @@ Capstone/
 └── README.md   
 
 ```
-## Authors
 
-- **Student:** [Diana Tumayan (AUA)](https://www.linkedin.com/in/diana-tumasyan-bb448b265)
-- **Supervisor:** Rafayel Petrosyan
 
 
 
@@ -128,15 +132,13 @@ This repository includes several key notebooks that support data preparation, mo
 | `Preprocessing_notebook_MechanoProDB` | `Scripts` | Sequence extraction through queries (PDB/UniProt), preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT. |
 | `Preprocessing_notebook_ProThermDB`   | `Scripts` | Building models for targets prediction (TFDF, ESM-2, ProtBERT, SciBERT, BiLSTM) , performing Inference and visualizations (Free Energy Profile, Force-Extension Curve). |
 
-#### Get item
+
 
 
 
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ This project was coordinated by 2 assistants from Orbeli Institute of Physiology, Anahit Khachatryan and Alisa Davtyan.
 
 
 ## Contact
