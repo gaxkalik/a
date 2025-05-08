@@ -121,12 +121,12 @@ This repository includes several key notebooks that support data preparation, mo
 
 
 
-│ Notebook (from Scripts/)  │ Location     │ Description│
-│ -------- │ ------- │ ------------------------- │
-│ `Data_Analysis`│ `Scripts` │ Check the distributions of values, perform PCA for Dimensionality Reduction, clustering via K-Means, DBSCAN, analysis of feature correlations and importance through Random Forest and Heatmaps. │
-│ `Models_notebook`│ `Scripts` │ Preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT, applying Regression Imputings for missing numeric values.  │
-│ `Preprocessing_notebook_MechanoProDB` │ `Scripts` │ Sequence extraction through queries (PDB/UniProt), preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT. │
-│ `Preprocessing_notebook_ProThermDB`   │ `Scripts` │ Building models for targets prediction (TFDF, ESM-2, ProtBERT, SciBERT, BiLSTM) , performing Inference and visualizations (Free Energy Profile, Force-Extension Curve). │
+| Notebook (from Scripts/)  | Location     | Description|
+| -------- | ------- | ------------------------- |
+| `Data_Analysis`| `Scripts` | Check the distributions of values, perform PCA for Dimensionality Reduction, clustering via K-Means, DBSCAN, analysis of feature correlations and importance through Random Forest and Heatmaps. |
+| `Models_notebook`| `Scripts` | Preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT, applying Regression Imputings for missing numeric values.  |
+| `Preprocessing_notebook_MechanoProDB` | `Scripts` | Sequence extraction through queries (PDB/UniProt), preprocessing of original MechanoProDB dataset by tokenizing text features through ProtBERT and SciBERT. |
+| `Preprocessing_notebook_ProThermDB`   | `Scripts` | Building models for targets prediction (TFDF, ESM-2, ProtBERT, SciBERT, BiLSTM) , performing Inference and visualizations (Free Energy Profile, Force-Extension Curve). |
 
 #### Get item
 
