@@ -11,6 +11,22 @@ This project aims to leverage existing biological knowledge of protein folding a
 - **Supervisor:** Rafayel Petrosyan
 
 
+## Setup Requirements
+
+This project was developed using **`Python 3.11`**.
+
+| Library             | Versions                                                               |
+| ----------------- | ------------------------------------------------------------------ |
+| `numpy` | 2.0.2 |
+| `transformers` | 4.51.3 |
+| `openpyxl` | 3.1.5 |
+| `tensorflow` | 2.18 |
+| `tensorflow_decision_forests` | 1.11.0 |
+| `torch` | [Check here](https://pytorch.org/get-started/locally/) |
+| `pandas` | 2.2.2 |
+| `tqdm` | 4.67.1|
+
+
 ## Project Structure
 
 ```bash
